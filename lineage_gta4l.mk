@@ -30,13 +30,13 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := gta4l
 PRODUCT_NAME := lineage_gta4l
+PRODUCT_MANUFACTURER := samsung
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-T505
-PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_SYSTEM_NAME := gta4lxx
 
-PRODUCT_GMS_CLIENTID_BASE := android-samsung
+PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
 
 # Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
