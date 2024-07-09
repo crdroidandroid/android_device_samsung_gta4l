@@ -24,6 +24,9 @@ $(call inherit-product, device/samsung/gta4l/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_tablet.mk)
 
+# Inherit some common crDroid stuff
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := gta4l
 PRODUCT_NAME := lineage_gta4l
